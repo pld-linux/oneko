@@ -1,5 +1,5 @@
-Summary:	Cute cat chasing around your mouse cursor.
-Summary(pl):	Kotek ganiaj±cy kursor myszy.
+Summary:	Cute cat chasing around your mouse cursor
+Summary(pl):	Kotek ganiaj±cy kursor myszy
 Name:		oneko
 Version:	1.2
 Release:	1
@@ -29,7 +29,7 @@ Gdy kotek z³apie mysz, idzie spaæ.
 %setup -q
 
 %build
-gcc oneko.c -o oneko -L%{_libdir} -lm -lX11 -lXext -DSHAPE
+%{__cc} %{rpmcflags} %{rpmldflags} oneko.c -o oneko -L%{_libdir} -lm -lX11 -lXext -DSHAPE
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -48,8 +48,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc *.gz
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
-%doc *.gz
 %{_pixmapsdir}/*
 %{_applnkdir}/Amusements/*
