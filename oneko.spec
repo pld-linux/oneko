@@ -2,7 +2,7 @@ Summary:	Cute cat chasing around your mouse cursor
 Summary(pl):	Kotek ganiaj±cy kursor myszy
 Name:		oneko
 Version:	1.2
-Release:	5
+Release:	6
 License:	Public Domain (?)
 Group:		X11/Amusements
 Source0:	http://agtoys.sourceforge.net/oneko/%{name}-%{version}.tar.gz
@@ -29,12 +29,12 @@ Gdy kotek z³apie mysz, idzie spaæ.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_pixmapsdir},%{_applnkdir}/Amusements}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_pixmapsdir},%{_desktopdir}}
 
 install oneko $RPM_BUILD_ROOT%{_bindir}
 install oneko.man $RPM_BUILD_ROOT%{_mandir}/man6/oneko.6
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Amusements
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -46,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
 %{_pixmapsdir}/*
-%{_applnkdir}/Amusements/*
+%{_desktopdir}/*
