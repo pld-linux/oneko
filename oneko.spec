@@ -6,6 +6,7 @@ Release:	4
 License:	Public Domain (?)
 Group:		X11/Amusements
 Source0:	http://agtoys.sourceforge.net/oneko/%{name}-%{version}.tar.gz
+# Source0-md5:	890a476b54e13bfd4ab21440c6a5a8e2
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 BuildRequires:	XFree86-devel
