@@ -5,8 +5,6 @@ Version:	1.2
 Release:	1
 License:	GPL
 Group:		X11/Amusements
-Group(de):	X11/Unterhaltung
-Group(pl):	X11/Rozrywka
 Source0:	%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Source2:	%{name}.png
