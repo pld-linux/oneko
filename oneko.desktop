@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=oneko
-Comment=Cute cat chasing around your mouse cursor.
-Comment[pl]=Kotek ganiaj±cy kursor myszy.
+Comment=Cute cat chasing around your mouse cursor
+Comment[pl]=Kotek ganiajÄ…cy za kursorem myszy
 Icon=oneko.png
 Exec=/usr/X11R6/bin/oneko
 Terminal=0
 Type=Application
+# vi: encoding=utf-8
