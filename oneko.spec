@@ -12,7 +12,6 @@ Source2:	%{name}.png
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 oneko changes your mouse cursor into mouse and creates a little cute
 cat and the cat start chasing around your mouse cursor. If the cat
@@ -26,7 +25,7 @@ Gdy kotek z³apie mysz, idzie spaæ.
 %setup -q
 
 %build
-%{__cc} %{rpmcflags} %{rpmldflags} oneko.c -o oneko -L/usr/X11R6/lib -lm -lX11 -lXext -DSHAPE
+%{__cc} %{rpmcflags} %{rpmldflags} oneko.c -o oneko -L/usr/X11R6/%{_lib} -lm -lX11 -lXext -DSHAPE
 
 %install
 rm -rf $RPM_BUILD_ROOT
