@@ -11,8 +11,6 @@ Source2:	%{name}.png
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 oneko changes your mouse cursor into mouse and creates a little cute
