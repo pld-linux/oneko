@@ -2,7 +2,7 @@ Summary:	Cute cat chasing around your mouse cursor
 Summary(pl):	Kotek ganiaj±cy kursor myszy
 Name:		oneko
 Version:	1.2
-Release:	3
+Release:	4
 License:	Public Domain (?)
 Group:		X11/Amusements
 Source0:	http://agtoys.sourceforge.net/oneko/%{name}-%{version}.tar.gz
@@ -25,7 +25,7 @@ Gdy kotek z³apie mysz, idzie spaæ.
 %setup -q
 
 %build
-%{__cc} %{rpmcflags} %{rpmldflags} oneko.c -o oneko -L%{_libdir} -lm -lX11 -lXext -DSHAPE
+%{__cc} %{rpmcflags} %{rpmldflags} oneko.c -o oneko -L/usr/X11R6/lib -lm -lX11 -lXext -DSHAPE
 
 %install
 rm -rf $RPM_BUILD_ROOT
