@@ -1,5 +1,5 @@
 Summary:	Cute cat chasing around your mouse cursor
-Summary(pl):	Kotek ganiaj±cy kursor myszy
+Summary(pl.UTF-8):   Kotek ganiajÄ…cy kursor myszy
 Name:		oneko
 Version:	1.2
 Release:	7
@@ -17,9 +17,9 @@ oneko changes your mouse cursor into mouse and creates a little cute
 cat and the cat start chasing around your mouse cursor. If the cat
 catchup the ``mouse'', start sleeping.
 
-%description -l pl
-oneko zmienia kursor w mysz i tworzy kotka, który zaczyna j± goniæ.
-Gdy kotek z³apie mysz, idzie spaæ.
+%description -l pl.UTF-8
+oneko zmienia kursor w mysz i tworzy kotka, ktÃ³ry zaczyna jÄ… goniÄ‡.
+Gdy kotek zÅ‚apie mysz, idzie spaÄ‡.
 
 %prep
 %setup -q
