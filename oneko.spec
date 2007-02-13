@@ -1,5 +1,5 @@
 Summary:	Cute cat chasing around your mouse cursor
-Summary(pl.UTF-8):   Kotek ganiający kursor myszy
+Summary(pl.UTF-8):	Kotek ganiający kursor myszy
 Name:		oneko
 Version:	1.2
 Release:	7
