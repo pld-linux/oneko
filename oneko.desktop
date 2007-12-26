@@ -2,10 +2,9 @@
 Name=oneko
 Comment=Cute cat chasing around your mouse cursor
 Comment[pl]=Kotek ganiający za kursorem myszy
-Icon=oneko.png
+Icon=oneko
 Exec=/usr/bin/oneko
 Terminal=false
 Type=Application
-Encoding=UTF-8
 Categories=Amusement;
 # vi: encoding=utf-8
