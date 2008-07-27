@@ -2,7 +2,7 @@ Summary:	Cute cat chasing around your mouse cursor
 Summary(pl.UTF-8):	Kotek ganiający kursor myszy
 Name:		oneko
 Version:	1.2
-Release:	7
+Release:	8
 License:	Public Domain (?)
 Group:		X11/Amusements
 Source0:	http://agtoys.sourceforge.net/oneko/%{name}-%{version}.tar.gz
